@@ -16,7 +16,7 @@
 <!-- GitHub Stats -->
 <h2 align="center">📊 GitHub Stats</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yamayaGIN1234&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ledinhbach2k4&show_icons=true&theme=radical" alt="GitHub Stats"/>
 </div>
 
 <br/>
@@ -24,7 +24,7 @@
 <!-- Most Used Languages -->
 <h2 align="center">💻 Most Used Languages</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yamayaGIN1234&layout=compact&theme=radical" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ledinhbach2k4&layout=compact&theme=radical" alt="Top Languages"/>
 </div>
 
 <br/>
@@ -32,7 +32,7 @@
 <!-- GitHub Trophies -->
 <h2 align="center">🏆 GitHub Achievements</h2>
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yamayaGIN1234&theme=onedark" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=ledinhbach2k4&theme=onedark" alt="GitHub Trophies"/>
 </div>
 
 <br/>
@@ -40,7 +40,7 @@
 <!-- GitHub Contribution Graph -->
 <h2 align="center">📈 Contribution Graph</h2>
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yamayaGIN1234&theme=react-dark" alt="GitHub Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ledinhbach2k4&theme=react-dark" alt="GitHub Contribution Graph"/>
 </div>
 
 <br/>
@@ -57,7 +57,7 @@
 <img src="./instagram.png" width=50 height=50 alt="Instagram" style="margin-bottom: 5px;" />
 </a>
 
-<a href="https://github.com/yamayaGIN1234" target="_blank">
+<a href="https://github.com/ledinhbach2k4" target="_blank">
 <img src="./github.png" width=50 height=50 alt="GitHub" style="margin-bottom: 5px;" />
 </a>
 
