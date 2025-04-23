@@ -68,6 +68,12 @@
 </div>
 <br/>
 
+<!--Spotify--> 
+<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=31sqc7ymg32an4rw4nbzf2ocwce4">
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31sqc7ymg32an4rw4nbzf2ocwce4" alt="Data Card for Spotify">
+</a>
+<br/>
+
 <!--Footer--> 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
