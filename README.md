@@ -4,7 +4,10 @@
 <br /> 
 
 <!--Start Intro-->               
-<p align="left">I am a Computer Hardware Specialist with a strong passion for designing, building, and maintaining computer systems and networks.</p>
+<p align="left">
+  I am a Computer Hardware Specialist with a strong passion for designing, building, and maintaining computer systems and networks.<br><br>
+  ☕ If you find my work helpful and want to support me: <a href="https://paypal.me/ledinhbach/2" target="_blank"><b>Buy me a coffee</b></a>
+</p>
 
 - ✨ Lifelong learner :)
 - 🌱 Continuously expanding my knowledge in computer hardware and systems.
