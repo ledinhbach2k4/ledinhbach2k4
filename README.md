@@ -27,6 +27,10 @@
 </div>
 <br/>
 
+<!--Music Section--> 
+<h2 align="center">🎶 Music-Status 🎶 </h2>
+<div align="center">
+
 <!--Spotify--> 
 <a href="https://data-card-for-spotify.herokuapp.com/card?user_id=31sqc7ymg32an4rw4nbzf2ocwce4">
   <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31sqc7ymg32an4rw4nbzf2ocwce4" alt="Data Card for Spotify">
