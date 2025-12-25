@@ -16,38 +16,6 @@
 <!--Banner-->
 ![LeDinhBach Banner Image](./banner.webp)
 
-<!-- GitHub Stats -->
-<h2 align="center">📊 GitHub Stats</h2>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ledinhbach2k4&show_icons=true&theme=radical" alt="GitHub Stats"/>
-</div>
-
-<br/>
-
-<!-- Most Used Languages -->
-<h2 align="center">💻 Most Used Languages</h2>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ledinhbach2k4&layout=compact&theme=radical" alt="Top Languages"/>
-</div>
-
-<br/>
-
-<!-- GitHub Trophies -->
-<h2 align="center">🏆 GitHub Achievements</h2>
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ledinhbach2k4&theme=onedark" alt="GitHub Trophies"/>
-</div>
-
-<br/>
-
-<!-- GitHub Contribution Graph -->
-<h2 align="center">📈 Contribution Graph</h2>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ledinhbach2k4&theme=react-dark" alt="GitHub Contribution Graph"/>
-</div>
-
-<br/>
-
 <!--Contact Section--> 
 <h2 align="center">🤝 This is my Social-Network 🤝 </h2>
 <div align="center">
