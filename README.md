@@ -21,7 +21,7 @@
 <div align="center">
   
 <a href="https://www.linkedin.com/in/b%C3%A1ch-l%C3%AA-%C4%91%C3%ACnh-4b39302b8/" target="_blank">
-<img src="./linkedin.png" width=200 height=200 alt="LinkedIn" style="margin-bottom: 5px;" />
+<img src="./linkedin.png" width=200 height=200 alt="LinkedIn" style="margin-bottom: 5px; transition: transform 0.2s ease-in-out;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
 </a>
 
 </div>
