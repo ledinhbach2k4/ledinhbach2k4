@@ -1,19 +1,17 @@
 <!--
   👋 Welcome to my profile README!
   Replaceable visuals (all relative, so you can swap files without touching the README):
-    • Hero banner  : ./assets/banner.svg   (or drop your own ./assets/banner.gif)
+    • Hero banner  : ./assets/banner-final.gif   (background keeps ./assets/banner.gif as source)
     • Wave divider : ./assets/divider.svg  (or ./assets/divider.gif)
     • Animated emoji GIFs live in ./assets/emojis/, decorations in ./assets/decorations/
 -->
 
 
 
-<h1 align="center">Lê Đình Bách</h1>
-
 <div align="center">
 
   <img
-    src="./assets/banner.svg"
+    src="./assets/banner-final.gif"
     alt="Lê Đình Bách — Software Developer"
     width="100%"
   />

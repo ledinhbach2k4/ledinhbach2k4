@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1200 675"
+     width="1200"
+     height="675">
+
+  <!--
+    ============================================================
+    assets/banner-overlay.svg
+    Editable DESIGN SOURCE for the profile banner overlay.
+
+    NOTE: this file is NOT rendered by GitHub. The overlay it
+    describes is baked frame-by-frame into the original animated
+    GIF by assets/generate-banner.py, which produces the file that
+    the README actually uses:
+
+        python assets/generate-banner.py   ->  assets/banner-final.gif
+
+    Layout geometry and colors match the compositing script
+    exactly (see build_overlay()), so you can tweak the design
+    here and mirror the values in the script.
+
+    Styling note: the overlay on the GIF uses FLAT solid colors
+    only — translucent "glass" effects would reintroduce
+    nearest-palette noise and blow up the file size.
+    ============================================================
+  -->
+
+  <defs>
+    <!-- Flat accent colors, mirrored verbatim into the GIF palette -->
+    <style>
+      .purple { fill: #a371f7; }
+      .cyan   { fill: #39c5cf; }
+      .pink   { fill: #f778ba; }
+      .light  { fill: #e8e8f4; }
+      .back   { fill: #150f26; }
+      .sheen  { fill: #2b1e4a; }
+      .border { fill: none; stroke: #4a3a78; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- 1. Panel (solid dark violet "glass" sheet) -->
+  <rect x="216" y="135" width="768" height="405" rx="54" class="back"/>
+  <rect x="216" y="135" width="768" height="405" rx="54" class="border"/>
+
+  <!-- 2. Glass sheen strip along the top edge -->
+  <rect x="222" y="139" width="756" height="6" class="sheen"/>
+
+  <!-- 3. Flat accent bar: purple -> cyan -> pink -->
+  <rect x="420" y="138" width="360" height="5" class="purple"/>
+  <rect x="540" y="138" width="120" height="5" class="cyan"/>
+  <rect x="660" y="138" width="120" height="5" class="pink"/>
+
+  <!-- 4. Name -->
+  <text x="600" y="273" text-anchor="middle" class="light"
+        font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="700">
+    Lê Đình Bách
+  </text>
+
+  <!-- 5. Role -->
+  <text x="600" y="327" text-anchor="middle" class="light"
+        font-family="Segoe UI, Arial, sans-serif" font-size="31" letter-spacing="4.5">
+    SOFTWARE DEVELOPER · VIETNAM
+  </text>
+
+  <!-- 6. Tagline -->
+  <text x="600" y="376" text-anchor="middle" class="light"
+        font-family="Consolas, monospace" font-size="27">
+    building things, breaking things, learning things.
+  </text>
+
+  <!-- 7. Chip @ledinhbach2k4 · EnviroMental -->
+  <rect x="336" y="419" width="528" height="68" rx="34"
+        class="back" stroke="#4a3a78" stroke-width="2"/>
+  <circle cx="366" cy="453" r="8" class="cyan"/>
+  <text x="384" y="463" class="light"
+        font-family="Consolas, monospace" font-weight="700" font-size="27">
+    @ledinhbach2k4 · EnviroMental
+  </text>
+
+  <!-- 8. Code decorations -->
+  <text x="150" y="170" class="purple"
+        font-family="Consolas, monospace" font-size="50">&lt;/&gt;</text>
+  <text x="1005" y="505" class="cyan"
+        font-family="Consolas, monospace" font-size="40">{ dev }</text>
+
+  <!-- 9. Sparkles -->
+  <polygon class="purple" points="120.0,360.0 109.4,325.6 75.0,315.0 109.4,304.4 120.0,270.0 130.6,304.4 165.0,315.0 130.6,325.6"/>
+  <polygon class="pink"    points="1092.0,214.0 1087.8,200.2 1074.0,196.0 1087.8,191.8 1092.0,178.0 1096.2,191.8 1110.0,196.0 1096.2,200.2"/>
+
+  <!-- 10. Outer rounded frame (solid accent) -->
+  <rect x="3" y="3" width="1194" height="669" rx="36"
+        fill="none" stroke="#a371f7" stroke-width="3"/>
+
+</svg>
