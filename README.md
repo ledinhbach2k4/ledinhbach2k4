@@ -9,7 +9,7 @@
 <div align="center">
   <!-- 🔁 Swap in your own animated banner:
        <img src="./assets/banner.gif" alt="banner" /> -->
-  <img src="./assets/banner.svg" alt="banner" width="100%" />
+  <img src="./assets/banner.gif" alt="banner" width="100%" />
 </div>
 
 <h1 align="center">Lê Đình Bách</h1>
