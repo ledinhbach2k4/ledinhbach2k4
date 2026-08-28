@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Colorful developer banner with code glyphs and floating shapes">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#150b2b"/>
+      <stop offset="55%" stop-color="#2d1a54" />
+      <stop offset="100%" stop-color="#4a1350"/>
+      <animate attributeName="stop-color" values="#150b2b;#2d1a54;#4a1350;#150b2b" dur="22s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a371f7"/>
+      <stop offset="50%" stop-color="#39c5cf"/>
+      <stop offset="100%" stop-color="#f778ba"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background card -->
+  <rect width="1000" height="300" rx="24" fill="url(#bg)"/>
+
+  <!-- soft floating blobs -->
+  <circle cx="170" cy="120" r="160" fill="#a371f7" opacity="0.30">
+    <animate attributeName="cy" values="120;106;120" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="160;150;160" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="830" cy="70" r="120" fill="#39c5cf" opacity="0.26">
+    <animate attributeName="cy" values="70;84;70" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="255" r="150" fill="#f778ba" opacity="0.20">
+    <animate attributeName="cx" values="520;548;520" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- slowly rotating dashed ring -->
+  <circle cx="500" cy="120" r="96" fill="none" stroke="url(#glow)" stroke-width="1.5" opacity="0.5" stroke-dasharray="4 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 120" to="360 500 120" dur="45s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- code-ish glyphs -->
+  <text x="58" y="80" fill="#ffffff" opacity="0.30" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="46">{ }</text>
+  <text x="238" y="255" fill="#ffffff" opacity="0.22" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="40">{ "99%" }</text>
+  <text x="640" y="82" fill="#ffffff" opacity="0.28" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="42">&lt; dev /&gt;</text>
+  <text x="806" y="232" fill="#ffffff" opacity="0.25" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="40">() =&gt;</text>
+  <text x="424" y="52" fill="#ffffff" opacity="0.20" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="32">#!/hanoi</text>
+  <text x="140" y="185" fill="#ffffff" opacity="0.18" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="30">const idea =&gt; app;</text>
+
+  <!-- twinkling sparkles -->
+  <path d="M180 170 l7 17 l17 7 l-17 7 l-7 17 l-7 -17 l-17 -7 l17 -7 z" fill="#39c5cf" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" values="0 180 200;24 180 200;0 180 200" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0.45;0.85" dur="4.2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M760 150 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 l12 -5 z" fill="#f778ba" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" values="0 765 180;24 765 180;0 765 180" dur="8.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0.4;0.85" dur="3.7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M315 70 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" fill="#a371f7" opacity="0.9">
+    <animateTransform attributeName="transform" type="rotate" values="0 319 88;24 319 88;0 319 88" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M933 150 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 z" fill="#39c5cf" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" values="0 936 162;24 936 162;0 936 162" dur="7.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.45;0.8" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- chips -->
+  <g>
+    <rect x="28" y="242" width="196" height="34" rx="17" fill="#8250df"/>
+    <text x="126" y="264" text-anchor="middle" fill="#ffffff" font-family="Consolas,'Liberation Mono',Menlo,monospace" font-size="17">@ledinhbach2k4</text>
+  </g>
+  <g>
+    <rect x="776" y="242" width="196" height="34" rx="17" fill="#1f6feb"/>
+    <text x="874" y="264" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="16">since 2017 · Vietnam</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="img" aria-label="Animated gradient wave divider">
+  <defs>
+    <linearGradient id="w1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#39c5cf"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f778ba"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 20 Q125 2 250 20 T500 20 T750 20 T1000 20" fill="none" stroke="url(#w1)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <animate attributeName="d"
+      values="M0 20 Q125 2 250 20 T500 20 T750 20 T1000 20;M0 20 Q125 38 250 20 T500 20 T750 20 T1000 20;M0 20 Q125 2 250 20 T500 20 T750 20 T1000 20"
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 20 Q125 38 250 20 T500 20 T750 20 T1000 20" fill="none" stroke="url(#w2)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+    <animate attributeName="d"
+      values="M0 20 Q125 38 250 20 T500 20 T750 20 T1000 20;M0 20 Q125 2 250 20 T500 20 T750 20 T1000 20;M0 20 Q125 38 250 20 T500 20 T750 20 T1000 20"
+      dur="7s" repeatCount="indefinite"/>
+  </path>
+</svg>
