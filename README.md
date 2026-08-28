@@ -12,21 +12,11 @@
 
   <img
     src="./assets/banner-final.gif"
-    alt="Lê Đình Bách — Software Developer"
+    alt="Lê Đình Bách — Want to know what I'm currently working on ?"
     width="100%"
   />
 
   <br /><br />
-
-  <a href="https://github.com/ledinhbach2k4">
-    <b>GitHub</b>
-  </a>
-
-  &nbsp;·&nbsp;
-
-  <a href="https://www.linkedin.com/in/b%C3%A1ch-l%C3%AA-%C4%91%C3%ACnh-4b39302b8/">
-    <b>LinkedIn</b>
-  </a>
 
 </div>
 
@@ -36,7 +26,7 @@
 
 ## 👋 about me
 
-Hey, I'm **Bách**, a developer from Vietnam.
+Hey, 𝙸’𝚖 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚘𝚗..
 
 I take random ideas and turn them into small apps, scripts and websites — then I keep tinkering until they actually work. These days that mostly means **React Native**, **Node.js** and a growing interest in **Java / Spring Boot**.
 

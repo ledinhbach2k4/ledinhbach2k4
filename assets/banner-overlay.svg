@@ -60,13 +60,13 @@
   <!-- 5. Role -->
   <text x="600" y="327" text-anchor="middle" class="light"
         font-family="Segoe UI, Arial, sans-serif" font-size="31" letter-spacing="4.5">
-    SOFTWARE DEVELOPER · VIETNAM
+    LOWKEY · BUILDING RANDOM STUFF
   </text>
 
   <!-- 6. Tagline -->
   <text x="600" y="376" text-anchor="middle" class="light"
         font-family="Consolas, monospace" font-size="27">
-    building things, breaking things, learning things.
+    turning random ideas into things on GitHub.
   </text>
 
   <!-- 7. Chip @ledinhbach2k4 · EnviroMental -->
