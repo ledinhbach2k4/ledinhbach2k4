@@ -64,66 +64,11 @@ The tools I actually pick up in my repos:
 
 ## 🚀 things I've built
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top" align="center">
-
-      **🌱 EnviroMental**
-
-      React Native app that tracks how environmental factors impact mental health — my main project right now.
-
-      <img src="https://skillicons.dev/icons?i=react,nodejs,express,postgres&perline=4" width="164" alt="react native / node / postgres" />
-
-      <br />
-
-      [**view project →**](https://github.com/ledinhbach2k4/EnviroMental)
-
-    </td>
-    <td width="50%" valign="top" align="center">
-
-      **🛒 TechTop Store**
-
-      A store product line spread across three repos: web frontend, REST API and Android app.
-
-      <img src="https://skillicons.dev/icons?i=spring,js,androidstudio,mysql,hibernate&perline=5" width="205" alt="spring / mysql / android" />
-
-      <br />
-
-      [**web**](https://github.com/ledinhbach2k4/TechTopStore-Website-JavaScript)
-      · [**api**](https://github.com/ledinhbach2k4/TechTopStoreWebApi)
-      · [**android**](https://github.com/ledinhbach2k4/TechTopStoreAndroid)
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-
-      **🌻 bro-shop**
-
-      A little shop page I built with my bro back in Hue Industrial College — early CSS days, good memories.
-
-      <img src="https://skillicons.dev/icons?i=html,css&perline=2" width="92" alt="html / css" />
-
-      <br />
-
-      [**view project →**](https://github.com/ledinhbach2k4/bro-shop)
-
-    </td>
-    <td width="50%" valign="top" align="center">
-
-      **🎬 YouTubeDownloader**
-
-      A tiny Python script — sometimes past-me just needed a specific tool. A lesson in *"just ship it"*.
-
-      <img src="https://skillicons.dev/icons?i=py" width="44" alt="python" />
-
-      <br />
-
-      [**view project →**](https://github.com/ledinhbach2k4/YouTubeDownloader)
-
-    </td>
-  </tr>
-</table>
+| 🌱 **EnviroMental** | 🛒 **TechTop Store** |
+| :--- | :--- |
+| React Native app that tracks how environmental factors impact mental health — my main project right now.<br/><br/><img src="https://skillicons.dev/icons?i=react,nodejs,express,postgres&perline=4" width="160" alt="React Native · Node.js · Express · PostgreSQL" /><br/><br/>[**view project →**](https://github.com/ledinhbach2k4/EnviroMental) | A store product line spread across three repos: web frontend, REST API and Android app.<br/><br/><img src="https://skillicons.dev/icons?i=spring,js,androidstudio,mysql,hibernate&perline=5" width="200" alt="Spring · JavaScript · Android · MySQL" /><br/><br/>[**web**](https://github.com/ledinhbach2k4/TechTopStore-Website-JavaScript) · [**api**](https://github.com/ledinhbach2k4/TechTopStoreWebApi) · [**android**](https://github.com/ledinhbach2k4/TechTopStoreAndroid) |
+| 🌻 **bro-shop** | 🎬 **YouTubeDownloader** |
+| A little shop page I built with my bro back in Hue Industrial College — early CSS days, good memories.<br/><br/><img src="https://skillicons.dev/icons?i=html,css&perline=2" width="92" alt="HTML · CSS" /><br/><br/>[**view project →**](https://github.com/ledinhbach2k4/bro-shop) | A tiny Python script — sometimes past-me just needed a specific tool. A lesson in *"just ship it"*.<br/><br/><img src="https://skillicons.dev/icons?i=py" width="48" alt="Python" /><br/><br/>[**view project →**](https://github.com/ledinhbach2k4/YouTubeDownloader) |
 
 ## 🎧 what I'm listening to
 
