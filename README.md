@@ -6,11 +6,7 @@
     • Animated emoji GIFs live in ./assets/emojis/, decorations in ./assets/decorations/
 -->
 
-<div align="center">
-  <!-- 🔁 Swap in your own animated banner:
-       <img src="./assets/banner.gif" alt="banner" /> -->
-  <img src="./assets/banner.gif" alt="banner" width="100%" />
-</div>
+
 
 <h1 align="center">Lê Đình Bách</h1>
 
@@ -19,8 +15,12 @@
 
   <br /><br />
 
-  💻 &nbsp; 🎧 &nbsp; 🌱 &nbsp; ☕ &nbsp; 🎮
-
+  <div align="center">
+  <!-- 🔁 Swap in your own animated banner:
+        <img src="./assets/banner.gif" alt="banner" /> -->
+  <img src="./assets/banner.gif" alt="banner" width="100%" />
+  </div>
+  
   <br /><br />
 
   <a href="https://github.com/ledinhbach2k4"><b>GitHub</b></a>
