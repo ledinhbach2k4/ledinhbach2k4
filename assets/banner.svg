@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 300"
+     width="1000"
+     height="300">
+
+  <defs>
+
+    <!-- Lớp tối phủ lên GIF -->
+    <linearGradient id="overlay"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+
+      <stop offset="0%"
+            stop-color="#090414"
+            stop-opacity="0.55"/>
+
+      <stop offset="50%"
+            stop-color="#13091f"
+            stop-opacity="0.25"/>
+
+      <stop offset="100%"
+            stop-color="#08040e"
+            stop-opacity="0.55"/>
+
+    </linearGradient>
+
+
+    <!-- Màu gradient -->
+    <linearGradient id="accent"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%">
+
+      <stop offset="0%" stop-color="#a371f7"/>
+      <stop offset="50%" stop-color="#39c5cf"/>
+      <stop offset="100%" stop-color="#f778ba"/>
+
+    </linearGradient>
+
+
+    <!-- Glass -->
+    <linearGradient id="glass"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+
+      <stop offset="0%"
+            stop-color="#ffffff"
+            stop-opacity="0.14"/>
+
+      <stop offset="100%"
+            stop-color="#ffffff"
+            stop-opacity="0.04"/>
+
+    </linearGradient>
+
+
+    <!-- Bo góc -->
+    <clipPath id="rounded">
+
+      <rect
+        x="0"
+        y="0"
+        width="1000"
+        height="300"
+        rx="24"/>
+
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- 1. GIF HIỆN TẠI CỦA BẠN                          -->
+  <!-- ================================================= -->
+
+  <g clip-path="url(#rounded)">
+
+    <image
+      href="./banner.gif"
+      xlink:href="./banner.gif"
+      x="0"
+      y="0"
+      width="1000"
+      height="300"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+
+    <!-- ================================================= -->
+    <!-- 2. LỚP OVERLAY                                     -->
+    <!-- ================================================= -->
+
+    <rect
+      x="0"
+      y="0"
+      width="1000"
+      height="300"
+      fill="url(#overlay)"
+    />
+
+
+    <!-- ================================================= -->
+    <!-- 3. KHUNG GLASS Ở GIỮA                            -->
+    <!-- ================================================= -->
+
+    <rect
+      x="190"
+      y="55"
+      width="620"
+      height="190"
+      rx="28"
+
+      fill="url(#glass)"
+
+      stroke="#ffffff"
+      stroke-opacity="0.16"
+      stroke-width="1"
+    />
+
+
+    <!-- Thanh gradient phía trên -->
+
+    <rect
+      x="380"
+      y="55"
+      width="240"
+      height="2"
+      rx="1"
+      fill="url(#accent)"
+    />
+
+
+    <!-- ================================================= -->
+    <!-- 4. TÊN                                             -->
+    <!-- ================================================= -->
+
+    <text
+      x="500"
+      y="125"
+
+      text-anchor="middle"
+
+      fill="#ffffff"
+
+      font-family="Segoe UI, Arial, sans-serif"
+
+      font-size="40"
+      font-weight="700">
+
+      Lê Đình Bách
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- 5. ROLE                                            -->
+    <!-- ================================================= -->
+
+    <text
+      x="500"
+      y="152"
+
+      text-anchor="middle"
+
+      fill="#ffffff"
+      opacity="0.9"
+
+      font-family="Segoe UI, Arial, sans-serif"
+
+      font-size="14"
+
+      letter-spacing="2">
+
+      SOFTWARE DEVELOPER · VIETNAM
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- 6. TAGLINE                                         -->
+    <!-- ================================================= -->
+
+    <text
+      x="500"
+      y="180"
+
+      text-anchor="middle"
+
+      fill="#ffffff"
+      opacity="0.75"
+
+      font-family="Consolas, monospace"
+
+      font-size="13">
+
+      building things, breaking things, learning things.
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- 7. USERNAME CHIP                                   -->
+    <!-- ================================================= -->
+
+    <rect
+      x="350"
+      y="198"
+      width="300"
+      height="30"
+
+      rx="15"
+
+      fill="#000000"
+      fill-opacity="0.25"
+
+      stroke="#ffffff"
+      stroke-opacity="0.15"
+    />
+
+
+    <circle
+      cx="370"
+      cy="213"
+      r="4"
+
+      fill="#39c5cf"
+    />
+
+
+    <text
+      x="384"
+      y="218"
+
+      fill="#ffffff"
+      opacity="0.9"
+
+      font-family="Consolas, monospace"
+
+      font-size="12.5">
+
+      @ledinhbach2k4 · EnviroMental
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- 8. DECORATION                                     -->
+    <!-- ================================================= -->
+
+    <text
+      x="215"
+      y="95"
+
+      fill="#ffffff"
+      opacity="0.25"
+
+      font-family="Consolas, monospace"
+
+      font-size="20">
+
+      &lt;/&gt;
+
+    </text>
+
+
+    <text
+      x="750"
+      y="220"
+
+      fill="#ffffff"
+      opacity="0.22"
+
+      font-family="Consolas, monospace"
+
+      font-size="17">
+
+      { dev }
+
+    </text>
+
+
+    <!-- Sparkle -->
+
+    <path
+      d="M125 145
+         l4 10
+         l10 4
+         l-10 4
+         l-4 10
+         l-4-10
+         l-10-4
+         l10-4z"
+
+      fill="url(#accent)"
+
+      opacity="0.8">
+
+      <animate
+        attributeName="opacity"
+        values="0.25;1;0.25"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+
+    <!-- Sparkle thứ 2 -->
+
+    <path
+      d="M875 90
+         l3 8
+         l8 3
+         l-8 3
+         l-3 8
+         l-3-8
+         l-8-3
+         l8-3z"
+
+      fill="url(#accent)"
+
+      opacity="0.8">
+
+      <animate
+        attributeName="opacity"
+        values="0.25;1;0.25"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- VIỀN NGOÀI                                        -->
+  <!-- ================================================= -->
+
+  <rect
+    x="1"
+    y="1"
+    width="998"
+    height="298"
+
+    rx="24"
+
+    fill="none"
+
+    stroke="url(#accent)"
+
+    stroke-opacity="0.3"
+
+    stroke-width="1.5"/>
+
+</svg>

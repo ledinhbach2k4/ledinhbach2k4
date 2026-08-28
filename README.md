@@ -11,21 +11,25 @@
 <h1 align="center">Lê Đình Bách</h1>
 
 <div align="center">
-  <i>building things, breaking things, learning things.</i>
+
+  <img
+    src="./assets/banner.svg"
+    alt="Lê Đình Bách — Software Developer"
+    width="100%"
+  />
 
   <br /><br />
 
-  <div align="center">
-  <!-- 🔁 Swap in your own animated banner:
-        <img src="./assets/banner.gif" alt="banner" /> -->
-  <img src="./assets/banner.gif" alt="banner" width="100%" />
-  </div>
-  
-  <br /><br />
+  <a href="https://github.com/ledinhbach2k4">
+    <b>GitHub</b>
+  </a>
 
-  <a href="https://github.com/ledinhbach2k4"><b>GitHub</b></a>
   &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/b%C3%A1ch-l%C3%AA-%C4%91%C3%ACnh-4b39302b8/"><b>LinkedIn</b></a>
+
+  <a href="https://www.linkedin.com/in/b%C3%A1ch-l%C3%AA-%C4%91%C3%ACnh-4b39302b8/">
+    <b>LinkedIn</b>
+  </a>
+
 </div>
 
 <div align="center">
